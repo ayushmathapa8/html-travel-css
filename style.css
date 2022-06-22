@@ -1,77 +1,73 @@
-
-    /* color: pink !important;
+/* color: pink !important;
     font-size: 80px; */
-    /* font-size: 80px; */ 
+/* font-size: 80px; */
 
-    /* element selector */
-    p{
-        color: blue;
-        /* font-size: 80px; */
-    }
+/* element selector */
+p {
+  color: blue;
+  /* font-size: 80px; */
+}
 
-    a{
-        color: red;
-    }
+a {
+  color: red;
+}
 
-  /* id selector */
+/* id selector */
 
-  #forth {
-      font-size: 30px;
- }
+#forth {
+  font-size: 30px;
+}
 
- /* class selector */
- .pg{
-     font-weight: bolder;
- }
+/* class selector */
+.pg {
+  font-weight: bolder;
+}
 
- /* Descendant */
- section p{
-     color: green;
- }
+/* Descendant */
+section p {
+  color: green;
+}
 
 /* child > */
-section > p{
-    background:black;
+section > p {
+  background: black;
 }
 
 /* Adjacent */
-section + p{
-    background:red
+section + p {
+  background: red;
 }
 
 /* Sibling (~) ?*/
 
 section ~ p {
-    background : green
+  background: green;
 }
 
 /*attribute selector */
 
-[href]{
-font-size: 32px;
-text-decoration: none;
+[href] {
+  font-size: 32px;
+  text-decoration: none;
 }
 
-[href="sdef"]{
-    color: indigo;
+[href="sdef"] {
+  color: indigo;
 }
 
 /* sudo element selector */
 p::first-letter {
-color:red ;
-font-size: 32px;}
-
+  color: red;
+  font-size: 32px;
+}
 
 /*sudo class selector*/
 
-a:hover{
-    color:turquoise;
-    font: size 16px;
+a:hover {
+  color: turquoise;
+  font: size 16px;
 }
 
-p:nth-child(odd){
-    color:red;
+p:nth-child(odd) {
+  color: red;
 }
-
-
-
